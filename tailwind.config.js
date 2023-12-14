@@ -40,12 +40,20 @@ export default {
       // size (width, height, max, min)
       maxWidth: {
         1320: '1320px',
+        598: '598px',
       },
       width: {
         219: '219px',
       },
       height: {
         85: '85px',
+      },
+
+
+
+      // padding margin
+      padding: {
+        50: '50px',
       },
 
 
@@ -68,13 +76,41 @@ export default {
 
       letterSpacing: {
         9.5: '9.5px',
+        7.6: '7.6px',
+      },
+
+      lineHeight: {
+        20: '80px',
       },
 
 
 
       // border
       borderRadius: {
+        27: '27px',
+        25: '25px',
+        20: '20px',
+        15: '15px',
         10: '10px',
+      },
+
+
+
+      // filter
+      blur: {
+        150: '150px',
+        80: '80px',
+      },
+
+
+
+      // z-index
+      zIndex: {
+        1: 1,
+        2: 2,
+        3: 3,
+        4: 4,
+        5: 5,
       },
     },
   },

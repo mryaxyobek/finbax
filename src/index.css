@@ -67,6 +67,10 @@
 
   /* font styles */
   /* regular */
+  .text-regular-24 {
+    @apply font-gilroy-regular text-2xl font-normal leading-normal;
+  }
+
   .text-regular-22 {
     @apply font-gilroy-regular text-22 font-normal leading-normal;
   }
@@ -90,15 +94,33 @@
   }
 
 
+
+
+  /* blur effect for shapes */
+  .blur-effect {
+    @apply absolute -z-1 blur-80 bg-primary-blue-600 opacity-40 rounded-full;
+  }
 }
+
 
 /* base */
 @layer base {
   h1 {
-    @apply text-80 font-gilroy-semibold font-semibold;
+    @apply text-80 font-gilroy-semibold font-semibold tracking-7.6;
+    line-height: 97%;
   }
 
   h2 {
     @apply text-38 tracking-9.5 font-gilroy-bold font-bold;
   }
+}
+
+
+/* other */
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
 }
