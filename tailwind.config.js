@@ -41,11 +41,15 @@ export default {
       maxWidth: {
         1320: '1320px',
         598: '598px',
+        170: '200px',
       },
+
       width: {
         219: '219px',
       },
+
       height: {
+        280: '280px',
         85: '85px',
       },
 
@@ -53,6 +57,7 @@ export default {
 
       // padding margin
       padding: {
+        60: '60px',
         50: '50px',
       },
 
@@ -69,6 +74,7 @@ export default {
       fontSize: {
         80: '80px',
         38: '38px',
+        30: '30px',
         25: '25px',
         25: '25px',
         22: '22px',
@@ -112,6 +118,14 @@ export default {
         4: 4,
         5: 5,
       },
+
+
+
+      // transform
+      rotate: {
+        102: '102deg',
+        75: '75deg',
+      }
     },
   },
   plugins: [],

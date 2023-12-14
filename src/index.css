@@ -89,6 +89,10 @@
   }
 
   /* bold  */
+  .text-bold-30 {
+    @apply text-30 font-gilroy-bold font-bold;
+  }
+
   .text-bold-22 {
     @apply text-regular-22 font-gilroy-bold font-bold;
   }
@@ -99,6 +103,13 @@
   /* blur effect for shapes */
   .blur-effect {
     @apply absolute -z-1 blur-80 bg-primary-blue-600 opacity-40 rounded-full;
+  }
+
+
+
+  /* restangle shape */
+  .restangle-shape {
+    @apply before:block before:content-[''] before:w-[85px] before:h-1.5 before:bg-white before:rounded-sm;
   }
 }
 
