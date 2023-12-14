@@ -34,10 +34,38 @@
     @apply bg-primary-blue-950 font-medium text-white font-gilroy-medium text-xl leading-normal;
   }
 
+  .container {
+    @apply max-w-1320 w-full mx-auto px-5;
+  }
 
 
 
-  /* intial font styles */
+  /* flex */
+  .flex-center-between {
+    @apply flex items-center justify-between;
+  }
+
+  .flex-center {
+    @apply flex items-center;
+  }
+
+  .flex-start {
+    @apply flex items-start;
+  }
+
+  .flex-end-between {
+    @apply flex items-end justify-between;
+  }
+
+  .flex-end {
+    @apply flex items-end;
+  }
+
+
+
+
+
+  /* font styles */
   /* regular */
   .text-regular-22 {
     @apply font-gilroy-regular text-22 font-normal leading-normal;
@@ -53,15 +81,15 @@
 
   /* semibold */
   .text-semibold-22 {
-    @apply text-regular-22 font-gilroy-semibold;
+    @apply text-regular-22 font-gilroy-semibold font-semibold;
+  }
+
+  /* bold  */
+  .text-bold-22 {
+    @apply text-regular-22 font-gilroy-bold font-bold;
   }
 
 
-
-
-  .container {
-    @apply max-w-1320 w-full mx-auto px-5;
-  }
 }
 
 /* base */

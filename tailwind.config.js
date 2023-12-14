@@ -41,6 +41,12 @@ export default {
       maxWidth: {
         1320: '1320px',
       },
+      width: {
+        219: '219px',
+      },
+      height: {
+        85: '85px',
+      },
 
 
 
@@ -62,6 +68,13 @@ export default {
 
       letterSpacing: {
         9.5: '9.5px',
+      },
+
+
+
+      // border
+      borderRadius: {
+        10: '10px',
       },
     },
   },
