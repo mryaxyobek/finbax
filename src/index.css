@@ -1,5 +1,28 @@
-/* font  */
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap');
+/* fonts  */
+@font-face {
+  font-family: gilroy-bold;
+  src: url(../src/assets/fonts/gilroy/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: gilroy-semibold;
+  src: url(../src/assets/fonts/gilroy/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: gilroy-medium;
+  src: url(../src/assets/fonts/gilroy/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: gilroy-regular;
+  src: url(../src/assets/fonts/gilroy/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+
 
 @tailwind base;
 @tailwind components;
@@ -7,13 +30,47 @@
 
 /* components  */
 @layer components {
+  .body {
+    @apply bg-primary-blue-950 font-medium text-white font-gilroy-medium text-xl leading-normal;
+  }
+
+
+
+
+  /* intial font styles */
+  /* regular */
+  .text-regular-22 {
+    @apply font-gilroy-regular text-22 font-normal leading-normal;
+  }
+
+  .text-regular-20 {
+    @apply font-gilroy-regular text-xl font-normal leading-normal;
+  }
+
+  .text-regular-18 {
+    @apply font-gilroy-regular text-lg font-normal leading-normal;
+  }
+
+  /* semibold */
+  .text-semibold-22 {
+    @apply text-regular-22 font-gilroy-semibold;
+  }
+
+
+
+
   .container {
-    @apply max-w-7xl w-full mx-auto px-5;
+    @apply max-w-1320 w-full mx-auto px-5;
   }
 }
 
-/* other class name  */
-.body {
-  background: #fff;
-  font-family: 'Onest', sans-serif;
+/* base */
+@layer base {
+  h1 {
+    @apply text-80 font-gilroy-semibold font-semibold;
+  }
+
+  h2 {
+    @apply text-38 tracking-9.5 font-gilroy-bold font-bold;
+  }
 }
