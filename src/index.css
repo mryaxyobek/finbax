@@ -109,9 +109,31 @@
 
   /* restangle shape */
   .restangle-shape {
-    @apply before:block before:content-[''] before:w-[85px] before:h-1.5 before:bg-white before:rounded-sm;
+    @apply flex-center flex-col justify-center before:block before:content-[''] before:w-[85px] before:h-1.5 before:bg-white before:rounded-sm;
+  }
+
+
+
+
+
+
+  /* home */
+  .percentage-list {
+    @apply flex-center py-7 rounded-20 border border-white px-14;
+  }
+
+  .percentage-list .percentage {
+    @apply flex-center font-feature-off text-45;
+  }
+
+  .percentage-list .percentage:not(:last-child)::after {
+    @apply block content-[''] bg-white rounded-full mx-14;
+    width: 3px;
+    height: 52px;
   }
 }
+
+
 
 
 /* base */
@@ -125,6 +147,25 @@
     @apply text-38 tracking-9.5 font-gilroy-bold font-bold;
   }
 }
+
+
+
+
+
+/* utilities */
+@layer utilities {
+  .font-montserrat {
+    font-family: 'montserrat', sans-serif;
+  }
+
+  .font-feature-off {
+    font-feature-settings: 'clig' off, 'liga' off;
+  }
+}
+
+
+
+
 
 
 /* other */

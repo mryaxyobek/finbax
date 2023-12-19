@@ -77,6 +77,7 @@ export default {
 
       fontSize: {
         80: '80px',
+        45: '45px',
         38: '38px',
         30: '30px',
         25: '25px',
