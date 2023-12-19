@@ -9,7 +9,7 @@ const Courses = () => {
     return (
         <section className='pt-9 pb-50'>
             <div className="container">
-                <h2 className="flex-center flex-col justify-center restangle-shape before:mb-8 mb-10"><span><span className="font-gilroy-medium font-medium">Bizning</span> Kurslar.</span></h2>
+                <h2 className="restangle-shape before:mb-8 mb-10"><span><span className="font-gilroy-medium font-medium">Bizning</span> Kurslar.</span></h2>
 
                 {/* courses */}
                 <ul className="grid grid-cols-3 gap-9">
