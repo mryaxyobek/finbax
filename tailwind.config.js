@@ -61,6 +61,10 @@ export default {
         50: '50px',
       },
 
+      margin: {
+        86: '86px',
+      },
+
 
 
       // font
