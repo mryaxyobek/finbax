@@ -83,6 +83,9 @@ export default {
         'gilroy-semibold': ['gilroy-semibold', 'sans-serif'],
         'gilroy-medium': ['gilroy-medium', 'sans-serif'],
         'gilroy-regular': ['gilroy-regular', 'sans-serif'],
+
+        // krona one 
+        'krona-one': ['Krona one', 'sans-serif'],
       },
 
       fontSize: {
@@ -144,9 +147,9 @@ export default {
         102: '102deg',
         75: '75deg',
       },
-      
-      
-      
+
+
+
       // background
       backgroundImage: {
         'linear-gradient_black-10': 'linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%)',
@@ -157,7 +160,7 @@ export default {
 
 
       // spacing top left right bottom
-      spacing:{
+      spacing: {
         67: '67px',
       },
     },

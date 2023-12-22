@@ -151,6 +151,30 @@
   .about-the-authors-swiper .swiper-slide .description {
     @apply text-secondary-orange-500 font-gilroy-regular font-normal;
   }
+
+  /* home page about us section */
+  .home-page-about-us-section{
+    @apply pb-75;
+  }
+  .home-page-about-us-section .list {
+    @apply grid grid-cols-3 gap-14;
+  }
+
+  .home-page-about-us-section .list-item {
+    @apply flex-center relative w-full flex-col text-center pt-32 pb-11 px-7 mt-76 bg-linear-turquoise rounded-15;
+  }
+
+  .home-page-about-us-section .list .image {
+    @apply absolute -top-67 rounded-15;
+  }
+
+  .home-page-about-us-section .list .title {
+    @apply tracking-5.5 font-gilroy-medium text-22 mb-6;
+  }
+
+  .home-page-about-us-section .list .description {
+    @apply font-gilroy-regular font-normal tracking-4.5 text-lg leading-normal;
+  }
 }
 
 
