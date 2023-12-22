@@ -45,10 +45,12 @@ export default {
       },
 
       width: {
+        330: '330px',
         219: '219px',
       },
 
       height: {
+        440: '440px',
         280: '280px',
         85: '85px',
       },
@@ -63,6 +65,11 @@ export default {
 
       margin: {
         86: '86px',
+        15: '60px',
+      },
+
+      space: {
+        0.75: '3px',
       },
 
 
@@ -88,6 +95,7 @@ export default {
       letterSpacing: {
         9.5: '9.5px',
         7.6: '7.6px',
+        5: '5px',
       },
 
       lineHeight: {
@@ -130,7 +138,14 @@ export default {
       rotate: {
         102: '102deg',
         75: '75deg',
-      }
+      },
+
+
+
+
+      backgroundImage: {
+        'linear-gradient_black-10': 'linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%)',
+      },
     },
   },
   plugins: [],
