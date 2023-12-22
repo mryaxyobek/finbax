@@ -40,6 +40,7 @@ export default {
       // size (width, height, max, min)
       maxWidth: {
         1320: '1320px',
+        1260: '1260px',
         598: '598px',
         170: '200px',
       },
@@ -59,12 +60,14 @@ export default {
 
       // padding margin
       padding: {
+        75: '75px',
         60: '60px',
         50: '50px',
       },
 
       margin: {
         86: '86px',
+        76: '76px',
         15: '60px',
       },
 
@@ -95,7 +98,9 @@ export default {
       letterSpacing: {
         9.5: '9.5px',
         7.6: '7.6px',
+        5.5: '5.5px',
         5: '5px',
+        4.5: '4.5px',
       },
 
       lineHeight: {
@@ -139,12 +144,21 @@ export default {
         102: '102deg',
         75: '75deg',
       },
-
-
-
-
+      
+      
+      
+      // background
       backgroundImage: {
         'linear-gradient_black-10': 'linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%)',
+        'linear-turquoise': 'linear-gradient(180deg, #354264 0%, rgba(18, 31, 86, 0.21) 100%)',
+      },
+
+
+
+
+      // spacing top left right bottom
+      spacing:{
+        67: '67px',
       },
     },
   },

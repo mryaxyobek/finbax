@@ -4,6 +4,7 @@ import Courses from '../components/Courses';
 import FreeCourses from '../components/FreeCourses';
 import PayInInstallments from '../components/PayInInstallments';
 import AboutTheAuthors from '../components/AboutTheAuthors';
+import HomePageAboutUs from '../components/HomePageAboutUs';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <FreeCourses />
             <PayInInstallments />
             <AboutTheAuthors />
+            <HomePageAboutUs />
         </div>
     )
 }
