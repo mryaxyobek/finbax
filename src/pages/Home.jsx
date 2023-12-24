@@ -5,6 +5,7 @@ import FreeCourses from '../components/FreeCourses';
 import PayInInstallments from '../components/PayInInstallments';
 import AboutTheAuthors from '../components/AboutTheAuthors';
 import HomePageAboutUs from '../components/HomePageAboutUs';
+import FaqSection from '../components/FaqSection';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <PayInInstallments />
             <AboutTheAuthors />
             <HomePageAboutUs />
+            <FaqSection />
         </div>
     )
 }
