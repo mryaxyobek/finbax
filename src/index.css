@@ -153,9 +153,10 @@
   }
 
   /* home page about us section */
-  .home-page-about-us-section{
+  .home-page-about-us-section {
     @apply pb-75;
   }
+
   .home-page-about-us-section .list {
     @apply grid grid-cols-3 gap-14;
   }
@@ -175,8 +176,43 @@
   .home-page-about-us-section .list .description {
     @apply font-gilroy-regular font-normal tracking-4.5 text-lg leading-normal;
   }
-}
 
+  /* faq section */
+  .faq-section .list {
+    @apply grid w-full;
+    gap: 50px;
+  }
+
+  .faq-section .list .list-item {
+    @apply flex-center rounded-25 border py-8 px-6 pr-9 max-w-max;
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+  }
+
+  .faq-section .list-item:nth-child(odd) {
+    @apply ml-auto;
+  }
+
+  .faq-section .list .item-number-wrapper {
+    @apply flex-center relative after:h-8 after:bg-white after:rounded-full after:w-0.5 after:mx-5;
+  }
+
+  .faq-section .list .item-number {
+    @apply font-krona-one font-normal;
+    font-size: 46px;
+    letter-spacing: 0.69px;
+  }
+
+  .faq-section .list .item-number-wrapper .done-icon {
+    @apply absolute w-8 h-8 bottom-3 left-6;
+  }
+
+  .faq-section .list-item .list-item-text {
+    @apply font-gilroy-regular font-normal;
+    max-width: 638px;
+    letter-spacing: 0.3px;
+    height: 41px;
+  }
+}
 
 
 

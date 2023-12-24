@@ -40,6 +40,7 @@ export default {
       // size (width, height, max, min)
       maxWidth: {
         1320: '1320px',
+        1290: '1290px',
         1260: '1260px',
         598: '598px',
         170: '200px',
