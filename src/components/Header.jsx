@@ -7,7 +7,9 @@ import logoImg from '../assets/images/other/logo.png';
 const Header = () => {
     return (
         <header className='pt-2.5 pb-1'>
-            <div className="flex-center-between container">
+            <div className="flex-center-between container relative">
+                {/* cirlce shape with blur effect */}
+                <div className="w-[158px] h-16 blur-effect left-5 top-7"></div>
                 {/* logo */}
                 <Link to='/'>
                     <img width={219} height={85} src={logoImg} alt="this is the site logo" className="w-219 h-85" />

@@ -31,7 +31,7 @@
 /* components  */
 @layer components {
   .body {
-    @apply bg-primary-blue-950 font-medium text-white font-gilroy-medium text-xl leading-normal;
+    @apply bg-primary-blue-950 font-medium text-white font-gilroy-medium text-xl leading-normal overflow-x-hidden;
   }
 
   .container {
@@ -107,6 +107,8 @@
   /* blur effect for shapes */
   .blur-effect {
     @apply absolute -z-1 blur-80 bg-primary-blue-600 opacity-40 rounded-full;
+    width: 354px;
+    height: 354px;
   }
 
 
@@ -154,7 +156,7 @@
 
   /* home page about us section */
   .home-page-about-us-section {
-    @apply pb-75;
+    @apply pb-75 relative;
   }
 
   .home-page-about-us-section .list {

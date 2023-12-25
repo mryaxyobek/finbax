@@ -9,7 +9,11 @@ import '../css/styles.css';
 import { Link } from 'react-router-dom';
 const AboutTheAuthors = () => {
     return (
-        <section className="pt-50 pb-16">
+        <section className="pt-50 pb-16 relative">
+            {/* cirlce shape with blur effect */}
+            <div className="blur-effect -left-52 -top-11"></div>
+            <div className="blur-effect -right-[231px] top-48"></div>
+
             <div className="container mb-12">
                 {/* title */}
                 <h2 className="restangle-shape before:mb-8 mb-5">

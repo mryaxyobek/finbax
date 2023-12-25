@@ -7,8 +7,11 @@ import { Link } from 'react-router-dom';
 
 const Courses = () => {
     return (
-        <section className='pt-9 pb-50'>
-            <div className="container">
+        <section className='pt-9 pb-50 relative'>
+            {/* cirlce shape with blur effect */}
+            <div className="blur-effect -left-[145px] top-[504px]"></div>
+            {/* content */}
+            <div className="container relative">
                 <h2 className="restangle-shape before:mb-8 mb-10"><span><span className="font-gilroy-medium font-medium">Bizning</span> Kurslar.</span></h2>
 
                 {/* courses */}
@@ -249,6 +252,8 @@ const Courses = () => {
                     </li>
                 </ul>
             </div>
+            {/* cirlce shape with blur effect */}
+            <div className="blur-effect -right-[230px] -bottom-[354px]"></div>
         </section>
     )
 };

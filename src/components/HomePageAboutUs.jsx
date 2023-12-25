@@ -35,6 +35,9 @@ const HomePageAboutUs = () => {
                     </li>
                 </ul>
             </div>
+
+            {/* cirlce shape with blur effect */}
+            <div className="blur-effect -left-36 -bottom-[272px]"></div>
         </section>
     )
 };
