@@ -97,6 +97,7 @@ export default {
         25: '25px',
         25: '25px',
         22: '22px',
+        15: '15px',
       },
 
       letterSpacing: {
@@ -105,6 +106,7 @@ export default {
         5.5: '5.5px',
         5: '5px',
         4.5: '4.5px',
+        0.75: '0.75px',
       },
 
       lineHeight: {
@@ -163,6 +165,14 @@ export default {
       // spacing top left right bottom
       spacing: {
         67: '67px',
+      },
+
+
+
+
+      // flex & grid
+      gap: {
+        70: '70px',
       },
     },
   },

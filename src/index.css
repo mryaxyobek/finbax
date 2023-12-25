@@ -212,6 +212,24 @@
     letter-spacing: 0.3px;
     height: 41px;
   }
+
+
+  /* footer */
+  .footer {
+    @apply text-15 font-gilroy-medium font-medium font-feature-off tracking-0.75 pb-9;
+  }
+
+  .footer-top-content-links-list {
+    @apply flex-center gap-70;
+  }
+
+  .footer .footer-top-content {
+    @apply py-5 border-b-2 border-white;
+  }
+
+  .footer .light-text {
+    @apply opacity-40;
+  }
 }
 
 
