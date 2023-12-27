@@ -232,6 +232,15 @@
   .footer .light-text {
     @apply opacity-40;
   }
+
+
+
+
+  /* about page */
+  /* about page main section paragraph */
+  .about-page-main-section .paragraph-normal {
+    @apply font-gilroy-regular font-normal text-2xl leading-normal mb-12;
+  }
 }
 
 
