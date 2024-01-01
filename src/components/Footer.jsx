@@ -33,7 +33,7 @@ const Footer = () => {
                             <Link to="/">Bepul kurslar</Link>
                         </li>
                         <li>
-                            <Link to="/">Biz haqimizda</Link>
+                            <Link to="/about">Biz haqimizda</Link>
                         </li>
                     </ul>
                 </ul>

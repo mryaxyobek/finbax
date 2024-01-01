@@ -20,13 +20,13 @@ const Header = () => {
                     <nav className='mr-32'>
                         <ul className="flex-center space-x-12 text-regular-22">
                             <li>
-                                <NavLink to='/'>Barcha kurslar</NavLink>
+                                <NavLink to='/courses'>Barcha kurslar</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/'>Biz haqimizda</NavLink>
+                                <NavLink to='/about'>Biz haqimizda</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/'>Yangiliklar</NavLink>
+                                <NavLink to='/news'>Yangiliklar</NavLink>
                             </li>
                         </ul>
                     </nav>

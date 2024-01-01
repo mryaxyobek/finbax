@@ -29,72 +29,54 @@ const AboutTheAuthors = () => {
                 <Swiper
                     slidesPerView={'auto'}
                     spaceBetween={40}
-                    className="flex gap-10 about-the-authors-swiper"
+                    className="flex gap-10 about-the-authors"
                 >
 
-                    <SwiperSlide style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/'>
-                            <div className="overlay"></div>
-                            <div className="swiper-slide-content">
-                                <span className="date">2.02.2023</span>
-                                <p className="description">Lorem ipsum</p>
-                                <h3 className="title">Abdullayev Anvar</h3>
-                            </div>
+                    <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
+                        <Link to='/' className='item-content'>
+                            <span>2.02.2023</span>
+                            <p className="text-orange">Lorem ipsum</p>
+                            <h3>Abdullayev Anvar</h3>
                         </Link>
                     </SwiperSlide>
 
-                    <SwiperSlide style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/'>
-                            <div className="overlay"></div>
-                            <div className="swiper-slide-content">
-                                <span className="date">2.02.2023</span>
-                                <p className="description">Lorem ipsum</p>
-                                <h3 className="title">Abdullayev Anvar</h3>
-                            </div>
+                    <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
+                        <Link to='/' className='item-content'>
+                            <span>2.02.2023</span>
+                            <p className="text-orange">Lorem ipsum</p>
+                            <h3>Abdullayev Anvar</h3>
                         </Link>
                     </SwiperSlide>
 
-                    <SwiperSlide style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/'>
-                            <div className="overlay"></div>
-                            <div className="swiper-slide-content">
-                                <span className="date">2.02.2023</span>
-                                <p className="description">Lorem ipsum</p>
-                                <h3 className="title">Abdullayev Anvar</h3>
-                            </div>
+                    <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
+                        <Link to='/' className='item-content'>
+                            <span>2.02.2023</span>
+                            <p className="text-orange">Lorem ipsum</p>
+                            <h3>Abdullayev Anvar</h3>
                         </Link>
                     </SwiperSlide>
 
-                    <SwiperSlide style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/'>
-                            <div className="overlay"></div>
-                            <div className="swiper-slide-content">
-                                <span className="date">2.02.2023</span>
-                                <p className="description">Lorem ipsum</p>
-                                <h3 className="title">Abdullayev Anvar</h3>
-                            </div>
+                    <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
+                        <Link to='/' className='item-content'>
+                            <span>2.02.2023</span>
+                            <p className="text-orange">Lorem ipsum</p>
+                            <h3>Abdullayev Anvar</h3>
                         </Link>
                     </SwiperSlide>
 
-                    <SwiperSlide style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/'>
-                            <div className="overlay"></div>
-                            <div className="swiper-slide-content">
-                                <span className="date">2.02.2023</span>
-                                <p className="description">Lorem ipsum</p>
-                                <h3 className="title">Abdullayev Anvar</h3>
-                            </div>
+                    <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
+                        <Link to='/' className='item-content'>
+                            <span>2.02.2023</span>
+                            <p className="text-orange">Lorem ipsum</p>
+                            <h3>Abdullayev Anvar</h3>
                         </Link>
                     </SwiperSlide>
 
-                    <SwiperSlide style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/'>
-                            <div className="overlay"></div>
-                            <div className="swiper-slide-content">
-                                <span className="date">2.02.2023</span>
-                                <p className="description">Lorem ipsum</p>
-                                <h3 className="title">Abdullayev Anvar</h3>
-                            </div>
+                    <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
+                        <Link to='/' className='item-content'>
+                            <span>2.02.2023</span>
+                            <p className="text-orange">Lorem ipsum</p>
+                            <h3>Abdullayev Anvar</h3>
                         </Link>
                     </SwiperSlide>
                 </Swiper>
