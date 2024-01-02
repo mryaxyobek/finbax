@@ -39,9 +39,12 @@ export default {
 
       // size (width, height, max, min)
       maxWidth: {
+        // container
         1320: '1320px',
         1290: '1290px',
         1260: '1260px',
+        1150: '1150px',
+        // other
         1163: '1163px',
         598: '598px',
         170: '200px',
