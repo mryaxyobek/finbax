@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Hero from '../components/HomePageHero';
 import Courses from '../components/Courses';
 import FreeCourses from '../components/FreeCourses';
@@ -8,6 +8,9 @@ import HomePageAboutUs from '../components/HomePageAboutUs';
 import FaqSection from '../components/FaqSection';
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='text-'>
             <Hero />

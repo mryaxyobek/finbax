@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* fonts  */
 @font-face {
   font-family: gilroy-bold;
@@ -142,11 +147,12 @@
   .about-the-authors .item {
     @apply w-330 h-440 rounded-15 relative;
   }
-  
+
   .about-the-authors .item .item-content {
     @apply flex justify-end flex-col w-full h-full space-y-0.75 font-feature-off text-semibold-22 px-8 py-5 bg-linear-gradient_black-10 rounded-15;
   }
-  .about-the-authors .item .play-btn{
+
+  .about-the-authors .item .play-btn {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full;
   }
 
