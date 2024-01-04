@@ -6,7 +6,7 @@ import logoImg from '../assets/images/other/logo.png';
 
 const Header = () => {
     return (
-        <header className='pt-2.5 pb-1'>
+        <header className='pt-2.5 pb-1 header'>
             <div className="flex-center-between container relative">
                 {/* cirlce shape with blur effect */}
                 <div className="w-[158px] h-16 blur-effect left-5 top-7"></div>

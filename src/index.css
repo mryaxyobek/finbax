@@ -5,6 +5,12 @@ html {
 
 /* fonts  */
 @font-face {
+  font-family: gilroy-extrabold;
+  src: url(../src/assets/fonts/gilroy/Gilroy-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
   font-family: gilroy-bold;
   src: url(../src/assets/fonts/gilroy/Gilroy-Bold.ttf);
   font-weight: 700;
@@ -46,6 +52,15 @@ html {
   .container-1220 {
     @apply container max-w-[1220px];
   }
+
+
+
+
+  /* contents */
+  .content {
+    content: '';
+  }
+
 
 
 
@@ -129,6 +144,20 @@ html {
 
 
   /* home page */
+  .header nav ul li a {
+    @apply flex-center flex-col relative after:content after:w-0 after:bg-white after:h-0.5 after:rounded-full after:size-transition;
+  }
+
+  .header nav ul li .active {
+    @apply font-gilroy-extrabold font-extrabold after:w-[89.1%];
+  }
+
+
+
+
+
+
+
   .percentage-list {
     @apply flex-center py-7 rounded-20 border border-white px-14;
   }
@@ -273,8 +302,17 @@ html {
     font-family: 'montserrat', sans-serif;
   }
 
+
+
   .font-feature-off {
     font-feature-settings: 'clig' off, 'liga' off;
+  }
+
+
+
+  /* transition */
+  .size-transition {
+    transition: width 0.2s linear, height 0.2s linear;
   }
 }
 

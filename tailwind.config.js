@@ -85,6 +85,7 @@ export default {
 
       // font
       fontFamily: {
+        'gilroy-extrabold': ['gilroy-extrabold', 'sans-serif'],
         'gilroy-bold': ['gilroy-bold', 'sans-serif'],
         'gilroy-semibold': ['gilroy-semibold', 'sans-serif'],
         'gilroy-medium': ['gilroy-medium', 'sans-serif'],
