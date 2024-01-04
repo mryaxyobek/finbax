@@ -53,6 +53,10 @@ html {
     @apply container max-w-[1220px];
   }
 
+  .hr {
+    @apply w-full bg-black rounded-full;
+    height: 1px;
+  }
 
 
 
@@ -108,6 +112,10 @@ html {
   }
 
   /* semibold */
+  .text-semibold-28 {
+    @apply text-28 font-semibold font-gilroy-semibold tracking-1 leading-normal;
+  }
+
   .text-semibold-22 {
     @apply text-22 font-gilroy-semibold font-semibold leading-normal;
   }
@@ -276,6 +284,30 @@ html {
   .about-page-main-section .paragraph-normal {
     @apply font-gilroy-regular font-normal text-2xl leading-normal mb-12;
   }
+
+
+
+
+
+  /* news page */
+  /* news list */
+  .news-list .news-list-item {
+    @apply rounded-20 bg-white text-black;
+    padding: 60px 68px 50px;
+  }
+
+  .news-list .news-list-item .item-title {
+    @apply text-semibold-28 font-feature-off;
+  }
+
+  .news-list .news-list-item .item-description {
+    @apply text-regular-24;
+  }
+
+  .news-list .news-list-item .item-img {
+    @apply w-full rounded-15 object-cover;
+    height: 480px;
+  }
 }
 
 
@@ -290,6 +322,7 @@ html {
   h2 {
     @apply text-38 tracking-9.5 font-gilroy-bold font-bold;
   }
+
 }
 
 
