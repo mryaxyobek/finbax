@@ -12,7 +12,7 @@ const Home = () => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div className='text-'>
+        <>
             <Hero />
             <Courses />
             <FreeCourses />
@@ -20,7 +20,7 @@ const Home = () => {
             <AboutTheAuthors />
             <HomePageAboutUs />
             <FaqSection />
-        </div>
+        </>
     )
 }
 
