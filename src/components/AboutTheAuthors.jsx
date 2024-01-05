@@ -33,7 +33,7 @@ const AboutTheAuthors = () => {
                 >
 
                     <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/' className='item-content'>
+                        <Link to='/courses/course-name' className='item-content'>
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -41,7 +41,7 @@ const AboutTheAuthors = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/' className='item-content'>
+                        <Link to='/courses/course-name' className='item-content'>
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -49,7 +49,7 @@ const AboutTheAuthors = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/' className='item-content'>
+                        <Link to='/courses/course-name' className='item-content'>
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -57,7 +57,7 @@ const AboutTheAuthors = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/' className='item-content'>
+                        <Link to='/courses/course-name' className='item-content'>
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -65,7 +65,7 @@ const AboutTheAuthors = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/' className='item-content'>
+                        <Link to='/courses/course-name' className='item-content'>
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -73,7 +73,7 @@ const AboutTheAuthors = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='item' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}>
-                        <Link to='/' className='item-content'>
+                        <Link to='/courses/course-name' className='item-content'>
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>

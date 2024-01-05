@@ -21,7 +21,7 @@ const AboutPage_AboutTheAuthors = () => {
             <div className="container max-w-1150">
                 <ul className="grid grid-cols-3 gap-x-20 gap-y-[70px] about-the-authors">
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -29,7 +29,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -37,7 +37,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -45,7 +45,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -53,7 +53,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -61,7 +61,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -69,7 +69,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>   
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -77,7 +77,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span> 
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
@@ -85,7 +85,7 @@ const AboutPage_AboutTheAuthors = () => {
                         </Link>
                     </li>
                     <li className='item w-full'>
-                        <Link to='/' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
+                        <Link to='/courses/course-name' className='item-content' style={{ background: 'url(../src/assets/images/other/abdullayev-anvar.jpg)' }}    >
                             <span>2.02.2023</span>
                             <p className="text-orange">Lorem ipsum</p>
                             <h3>Abdullayev Anvar</h3>
