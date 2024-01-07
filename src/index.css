@@ -308,6 +308,41 @@ html {
     @apply w-full rounded-15 object-cover;
     height: 480px;
   }
+
+
+
+
+
+
+
+
+  /* courses page */
+  /* about the course section */
+  .about-the-course_section .list {
+    @apply !font-poppins;
+  }
+
+  .about-the-course_section .list-item {
+    @apply relative px-11 pt-16 pb-12 border-b border-r border-white;
+  }
+}
+
+.about-the-course_section .list-item-number {
+  @apply inline-block absolute text-transparent left-5;
+  -webkit-text-stroke: 1px white;
+  line-height: 141px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  height: 78px;
+  top: -38px;
+}
+
+.about-the-course_section .list-item:is(:nth-last-child(1), :nth-last-child(2), :nth-last-child(3)) {
+  @apply border-b-0;
+}
+
+.about-the-course_section .list-item:nth-child(3n + 3) {
+  @apply border-r-0;
 }
 
 

@@ -85,14 +85,16 @@ export default {
 
       // font
       fontFamily: {
+        // gilroy
         'gilroy-extrabold': ['gilroy-extrabold', 'sans-serif'],
         'gilroy-bold': ['gilroy-bold', 'sans-serif'],
         'gilroy-semibold': ['gilroy-semibold', 'sans-serif'],
         'gilroy-medium': ['gilroy-medium', 'sans-serif'],
         'gilroy-regular': ['gilroy-regular', 'sans-serif'],
-
         // krona one 
         'krona-one': ['Krona one', 'sans-serif'],
+        // poppins
+        'poppins': ['poppins', 'sans-serif'],
       },
 
       fontSize: {
