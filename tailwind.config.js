@@ -32,6 +32,9 @@ export default {
           slate: {
             500: '#2F4858',
           },
+          white: {
+            200: '#FAFAFA',
+          }
         },
       },
 
@@ -103,6 +106,7 @@ export default {
         38: '38px',
         30: '30px',
         28: '28px',
+        26: '26px',
         25: '25px',
         22: '22px',
         15: '15px',
@@ -131,6 +135,9 @@ export default {
         20: '20px',
         15: '15px',
         10: '10px',
+      },
+      borderWidth: {
+        0.5: '0.5px',
       },
 
 
@@ -182,6 +189,14 @@ export default {
       // flex & grid
       gap: {
         70: '70px',
+      },
+
+
+
+
+      // box shadow
+      boxShadow: {
+        'xl-right': ' 10px 15px 25px 12px rgba(0, 0, 0, 0.15)',
       },
     },
   },
